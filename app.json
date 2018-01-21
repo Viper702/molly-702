@@ -1,0 +1,111 @@
+{
+  "name": "molly-702",
+  "description": "Erick Drake's virtual assistant.",
+  "scripts": {
+  },
+  "env": {
+    "BING_SEARCH_API_KEY": {
+      "required": true
+    },
+    "FB_APP_ID": {
+      "required": true
+    },
+    "FB_APP_SECRET": {
+      "required": true
+    },
+    "FB_AUTOHEAR": {
+      "required": true
+    },
+    "FB_PAGE_ID": {
+      "required": true
+    },
+    "FB_PAGE_TOKEN": {
+      "required": true
+    },
+    "FB_ROUTE_URL": {
+      "required": true
+    },
+    "FB_SEND_IMAGES": {
+      "required": true
+    },
+    "FB_VERIFY_TOKEN": {
+      "required": true
+    },
+    "FB_WEBHOOK_BASE": {
+      "required": true
+    },
+    "GOOGLE_API_KEY": {
+      "required": true
+    },
+    "GOOGLE_CUSTOM_SEARCH": {
+      "required": true
+    },
+    "HUBOT_GOOGLE_CSE_ID": {
+      "required": true
+    },
+    "HUBOT_GOOGLE_CSE_KEY": {
+      "required": true
+    },
+    "HUBOT_HEROKU_KEEPALIVE_URL": {
+      "required": true
+    },
+    "HUBOT_LONGTEXT_MAX": {
+      "required": true
+    },
+    "HUBOT_LONGTEXT_MAX_LINES": {
+      "required": true
+    },
+    "HUBOT_MESSENGER_PAGE_ACCESS_TOKEN": {
+      "required": true
+    },
+    "HUBOT_MESSENGER_VERIFICATION_TOKEN": {
+      "required": true
+    },
+    "HUBOT_MICROSOFT_TRANSLATOR_CLIENT_ID": {
+      "required": true
+    },
+    "HUBOT_MICROSOFT_TRANSLATOR_CLIENT_SECRET": {
+      "required": true
+    },
+    "HUBOT_OWM_APIKEY": {
+      "required": true
+    },
+    "HUBOT_SLACK_TOKEN": {
+      "required": true
+    },
+    "HUBOT_WEATHER_UNITS": {
+      "required": true
+    },
+    "HUBOT_WEBHOOK_URL": {
+      "required": true
+    },
+    "HUBOT_YOUTUBE_API_KEY": {
+      "required": true
+    },
+    "MAX_SEARCH_RESULTS": {
+      "required": true
+    },
+    "MESSENGER_ACCESS_TOKEN": {
+      "required": true
+    },
+    "MESSENGER_VERIFY_TOKEN": {
+      "required": true
+    },
+    "REDISTOGO_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "redistogo"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
